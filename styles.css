@@ -18,6 +18,7 @@ body {
     flex-wrap: wrap;
     max-width: 960px;
     max-height: 960px;
+    /* remove min width and height to get cool effect */
     min-width: 960px;
     min-height: 960px;
     border: 2px solid red;

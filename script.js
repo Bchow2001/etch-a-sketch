@@ -6,6 +6,8 @@ const defaultGridSize = 100
 let gridSize = defaultGridSize
 let pixelHeight = 960/gridSize
 
+gridContainer.setAttribute("draggable", "false");
+
 let mouseDown = false;
 
 document.body.onmousedown = () => (mouseDown = true);
@@ -27,7 +29,7 @@ function createDiv() {
     pixel.style.width = pixelHeight+"px";
     pixel.addEventListener('mouseover', changeColor);
     pixel.addEventListener('mousedown', changeColor);
-    pixel.setAttribute("draggable", "false")
+    pixel.setAttribute("draggable", "false");
     gridContainer.appendChild(pixel);
 }
 
