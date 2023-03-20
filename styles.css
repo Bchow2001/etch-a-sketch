@@ -1,0 +1,25 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container{
+    display:flex;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 224px;
+    max-height: 224px;
+}
+
+.pixel{
+    background-color: black;
+}
